@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Plagiarism Detector Dashboard</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💻 Code Plagiarism Detector</h1>
+    <p class="subtitle">Upload your files and get clean, color-coded results</p>
+
+    <div class="upload-sections">
+      <div class="upload-card">
+        <h3>📄 Upload .C Files</h3>
+        <input type="file" id="cFiles" multiple accept=".c">
+      </div>
+
+      <div class="upload-card">
+        <h3>📁 Upload Folder</h3>
+        <input type="file" id="folderUpload" webkitdirectory directory multiple>
+      </div>
+
+      <div class="upload-card">
+        <h3>🗜 Upload ZIP File</h3>
+        <input type="file" id="zipUpload" accept=".zip">
+      </div>
+    </div>
+
+    <button id="analyzeBtn" class="analyze-btn">🚀 Start Analysis</button>
+
+    <div id="progress" class="progress hidden">
+      <div class="progress-bar"></div>
+    </div>
+
+    <div id="results" class="results hidden"></div>
+  </div>
+
+  <script src="/static/js/main.js"></script>
+</body>
+</html>
