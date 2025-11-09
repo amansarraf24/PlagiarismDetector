@@ -53,6 +53,7 @@ User → Frontend (HTML/CSS/JS) → Flask Server (Python) → Plagiarism Detecto
 
 <br>
 
+```
 ## 💻 Folder Structure  
 PlagiarismDetector/
 │
@@ -84,21 +85,19 @@ PlagiarismDetector/
 │ └── testfiles5.c
 │
 └── README.md
-
-bash
-Copy code
+```
 
 <br>
 
 ## 🧪 How to Run Locally  
 
 🖥 **Backend Compilation (C Engine)**  
-```bash
+```
 cd PlagiarismDetector/src  
 gcc -std=c99 -Wall -O2 -o plagiarism_detector.exe main.c directory_handler.c file_handler.c utils.c lexer.c ast.c parser.c normalizer.c cfg.c dag.c detector.c
 🐍 Flask Setup
 
-bash
+
 Copy code
 cd ../FlaskFrontend  
 pip install flask  
@@ -106,7 +105,7 @@ python app.py
 🌐 Open in Browser:
 👉 http://127.0.0.1:5000
 
-<br>
+
 📊 Output Preview
 Upload Section
 
@@ -127,8 +126,8 @@ Colors indicate plagiarism level:
 🔴 High → High Similarity
 🟡 Medium → Some Similarity
 🟢 Low → Minimal / None
+```
 
-<br>
 🧭 Future Enhancements
 🚀 Add PDF Report Export feature
 📁 Integrate SQL database for submission records
