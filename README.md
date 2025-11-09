@@ -53,8 +53,8 @@ User → Frontend (HTML/CSS/JS) → Flask Server (Python) → Plagiarism Detecto
 
 <br>
 
+## 💻 Folder Structure 
 ```
-## 💻 Folder Structure  
 PlagiarismDetector/
 │
 ├── src/ # Core C backend engine
