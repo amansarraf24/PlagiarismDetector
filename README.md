@@ -136,12 +136,11 @@ Colors indicate plagiarism level:
 🧬 Extend support for C++, Java, and Python
 
 <br>
-## 👨‍💻 Authors
+👨‍💻 Authors
 Aman Verma
 Aniket Pratap Singh
 Shrishti Yadav
 Atulya Gupta
-<br>
 
 🎓 B.Tech in Computer Engineering
 💡 Passionate about Software Engineering, Backend Development & Code Intelligence
