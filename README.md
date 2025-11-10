@@ -134,6 +134,7 @@ Colors indicate plagiarism level:
 📊 Add code visualization graphs (AST tree view)
 🌐 Deploy on Render / Heroku / Vercel
 🧬 Extend support for C++, Java, and Python
+<br>
 
 <br>
 👨‍💻 Authors
@@ -141,6 +142,7 @@ Aman Verma
 Aniket Pratap Singh
 Shrishti Yadav
 Atulya Gupta
+<br>
 
 🎓 B.Tech in Computer Engineering
 💡 Passionate about Software Engineering, Backend Development & Code Intelligence
