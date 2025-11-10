@@ -127,8 +127,8 @@ Colors indicate plagiarism level:
 🟡 Medium → Some Similarity
 🟢 Low → Minimal / None
 ```
-
-🧭 Future Enhancements
+<br>
+## 🧭 Future Enhancements
 🚀 Add PDF Report Export feature
 📁 Integrate SQL database for submission records
 📊 Add code visualization graphs (AST tree view)
@@ -136,7 +136,7 @@ Colors indicate plagiarism level:
 🧬 Extend support for C++, Java, and Python
 
 <br>
-👨‍💻 Authors
+## 👨‍💻 Authors
 Aman Verma
 Aniket Pratap Singh
 Shrishti Yadav
